@@ -3,13 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Costercoding</title>
-    <script src="script.js"></script>
+    <title>Portfolio - Marco</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="assets/favicon.ico" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+
 
 </head>
+
 <body>
-    <h1>Webseite läuft</h1>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="brand-logo">M</div>
+        <div class="brand-text">
+          <div class="brand-title">Marco</div>
+          <div class="brand-subtitle">Softwareentwickler</div>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main id="start">
+      <div class="hero-text">
+        <h1 data-fade>
+          Hi, ich bin <span class="gradient">Marco</span> - ich entwickle Software, </br>
+          die aus Ideen echte Lösungen macht.
+        </h1>
+
+        <p class="hero-subtitle" data-fade>
+          Ich kombiniere <strong>Webentwicklung</strong> mit <strong>User Experience</strong>.
+          <br> Mit Fokus auf sauberem Code und funktionierenden Ergebnissen.
+        </p>
+
+      </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section class="features" id="about">
+      <article class="feature-card" data-fade>
+        <div class="feature-icon">👋</div>
+        <div class="feature-title">Wer ich bin</div>
+        <p class="feature-text">
+          Ich bin Softwareentwickler, weil ich gerne Dinge erschaffe, die echten Nutzen haben.
+          Seit über <span id="years"></span> Jahren entwickle ich deshalb moderne Webanwendungen.
+        </p>
+        <div class="feature-meta">
+          <span>4+ Jahre Erfahrung</span>
+          <span>Remote & Vor Ort</span>
+        </div>
+      </article>
+
+      <article class="feature-card" data-fade>
+        <div class="feature-icon">🎯</div>
+        <div class="feature-title">Was mich antreibt</div>
+        <p class="feature-text">
+          Mich motiviert das Gefühl, etwas gebaut zu haben, das wirklich gebraucht wird
+          - egal ob kleines Tool oder größeres Projekt.
+          Gute Software entsteht für mich dann, wenn Technik und User Experience zusammenpassen.
+        </p>
+        <div class="feature-meta">
+          <span>Qualität im Detail</span>
+          <span>Usability</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="features" id="skills">
+      <article class="feature-card" data-fade>
+        <div class="feature-icon">💻</div>
+        <div class="feature-title">Webentwicklung</div>
+        <p class="feature-text">
+          Moderne Webentwicklung mit Fokus auf Performance, Struktur und sauberem Code.
+        </p>
+        <div class="feature-meta">
+          <span>HTML · CSS · TS</span>
+          <span>Angular · SQL</span>
+        </div>
+      </article>
+
+      <article class="feature-card" data-fade>
+        <div class="feature-icon">🔧</div>
+        <div class="feature-title">Tools & Workflow</div>
+        <p class="feature-text">
+          Linux und Git sind fester Bestandteil meines Workflows.
+          Sie helfen mir, strukturiert zu arbeiten und Projekte sauber zu verwalten.
+        </p>
+        <div class="feature-meta">
+          <span>Linux · Git</span>
+          <span>Version Control</span>
+        </div>
+      </article>
+
+      <article class="feature-card" data-fade>
+        <div class="feature-icon">📜</div>
+        <div class="feature-title">Zertifikate</div>
+            <ul class="nice-list">
+                <li>Cambridge First Certificate 🏅</li>
+                <li>NDG Linux Essentials ⏳</li>
+                <li>ISC2 Certified in Cybersecurity (CC) ⏳</li>
+                <!--<li>CompTIA Security+</li>-->
+            </ul>
+    </article>
+
+    </section>
+
+    <!-- CONTACT -->
+<footer class="site-footer" id="contact">
+  <p class="footer-text">© 2026 - Portfolio von Marco</p>
+
+  <a href="https://www.linkedin.com/" target="_blank" class="linkedin-link">
+    <svg viewBox="0 0 24 24" class="linkedin-icon">
+      <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.8-2.2 4-2.2 4.3 0 5.1 2.8 5.1 6.5V24h-4v-7.8c0-1.9 0-4.3-2.6-4.3-2.6 0-3 2-3 4.1V24h-4V8z"/>
+    </svg>
+    LinkedIn
+  </a>
+</footer>
+
+
+  </div>
 </body>
+
+
+
+
+
+
+
 </html>
