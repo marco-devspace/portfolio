@@ -1,34 +1,34 @@
-# Personal Portfolio Website
+# Persönliche Portfolio-Website
 
-A personal portfolio website to present my professional background, projects, skills, and learning journey in software development and cybersecurity.
+Eine persönliche Portfolio-Website zur Präsentation meines beruflichen Hintergrunds, meiner Projekte, Kenntnisse und meiner Entwicklung in den Bereichen Softwareentwicklung und Cybersecurity.
 
-## Overview
+## Überblick
 
-This project is a self-developed portfolio website created to highlight my experience as a software developer and document my progression into cybersecurity.
+Dieses Projekt ist eine selbst entwickelte Portfolio-Website, die meine Erfahrungen als Softwareentwickler präsentiert und meinen Einstieg sowie meine Weiterentwicklung im Bereich Cybersecurity dokumentiert.
 
-The website provides an overview of my technical skills, qualifications and personal projects while intentionally keeping the design simple and focused on clear presentation.
+Die Website bietet einen Überblick über meine technischen Kenntnisse, Qualifikationen und persönlichen Projekte. Das Design ist bewusst schlicht gehalten und legt den Fokus auf eine übersichtliche und klare Darstellung.
 
 ## Features
 
-- Presentation of personal projects
-- Overview of technical skills
-- Display of qualifications and learning paths
-- Responsive and user-friendly design
+- Präsentation persönlicher Projekte
+- Übersicht der technischen Kenntnisse
+- Darstellung von Qualifikationen und Lernpfaden
+- Responsive und benutzerfreundliche Gestaltung
 
-## Technologies
+## Technologien
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Purpose
+## Ziel
 
-This project was created to:
+Mit diesem Projekt möchte ich:
 
-- Build a professional online presence
-- Present software development and cybersecurity knowledge
-- Document personal projects and continuous learning
+- eine professionelle Online-Präsenz aufbauen
+- meine Kenntnisse in Softwareentwicklung und Cybersecurity präsentieren
+- persönliche Projekte und meinen kontinuierlichen Lernfortschritt dokumentieren
 
-## Disclaimer
+## Hinweis
 
-This project represents my personal portfolio and is continuously improved as I develop new skills and complete further projects.
+Dieses Projekt dient als persönliches Portfolio und wird kontinuierlich weiterentwickelt. Neue Inhalte, Projekte und Kenntnisse werden im Laufe meiner beruflichen und fachlichen Weiterentwicklung ergänzt.
