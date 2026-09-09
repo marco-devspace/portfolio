@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Marco Beyl | Softwareentwickler & Cybersecurity</title>
+    <title>Marco Beyl | Softwareentwicklung & Cybersecurity</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
@@ -16,11 +16,11 @@
     <div class="page">
       <header>
         <div class="personal">
-          <div class="personal-logo">M</div>
+          <img src="assets/favicon.svg" alt="Logo" width="32px" height="32px" />
           <div class="personal-text">
             <div class="personal-title">Marco Beyl</div>
             <div class="personal-subtitle">
-              Softwareentwickler | Cybersecurity
+              Softwareentwicklung & Cybersecurity
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
           <a class="nav-links" href="#skills">Skills</a>
           <a
             class="nav-links linkedin-nav"
-            href="https://www.linkedin.com/in/marcobeyl"
+            href="https://www.linkedin.com/in/marco-beyl"
             aria-label="LinkedIn Profil"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@
           </a>
           <a
             class="nav-links github-nav"
-            href="https://www.github.com/marco-devspace"
+            href="https://www.github.com/marco-devspace?tab=repositories"
             aria-label="GitHub Profil"
             target="_blank"
             rel="noopener noreferrer"
@@ -86,13 +86,18 @@
           <div class="card-title">Wer bin ich?</div>
           <!-- update years automatically -->
           <p class="card-text">
-            Ich bin Softwareentwickler, weil ich gerne Dinge erschaffe, die
-            einen echten Nutzen bieten. Mich motiviert es, komplexe
-            Herausforderungen zu lösen, neue Ideen umzusetzen und kontinuierlich
-            dazuzulernen. Seit über
-            <span id="years">4</span> Jahren entwickle ich moderne
-            Webanwendungen und erweitere aktuell meinen Schwerpunkt um
-            Cybersecurity, Netzwerksicherheit und sichere Softwareentwicklung.
+            Ich bin Softwareentwickler, weil ich es spannend finde, aus einer
+            Idee etwas zu entwickeln, das einen echten Nutzen bietet. Seit über
+            <span id="years">5</span> Jahren entwickle ich moderne
+            Webanwendungen und beschäftige mich dabei zunehmend mit der Frage:
+            Wie sicher ist eine Anwendung, wo liegen ihre Schwachstellen und wie
+            lassen sie sich bereits bei der Entwicklung vermeiden? <br />
+            Diese Perspektive hat mein Interesse an Cybersecurity,
+            Netzwerksicherheit und Secure Software Development geweckt. Heute
+            verbinde ich meine Erfahrung in der Softwareentwicklung mit
+            praktischem Wissen im Bereich Cybersecurity und erweitere dieses
+            kontinuierlich durch eigene Projekte, Weiterbildungen und praktische
+            Security-Labs.
           </p>
           <div class="card-keywords">
             <!-- update years automatically -->
@@ -107,8 +112,15 @@
       <!-- PROJECTS -->
       <h3 class="section-title">Projekte</h3>
       <section class="cards" id="projects">
-        <article class="card">
-          <div class="card-icon">🎨</div>
+        <!-- <article class="card">
+          <a
+            class="card-icon"
+            href="https://www.github.com/marco-devspace/portfolio"
+            aria-label="GitHub Repository"
+            target="_blank"
+            rel="noopener noreferrer"
+            >🎨</a
+          >
           <div class="card-title">Portfolio-Website</div>
           <p class="card-text">
             Eine persönliche Website, um meine Projekte, Erfahrungen und
@@ -126,45 +138,83 @@
               <span class="badge">UI/UX</span>
             </span>
           </div>
-        </article>
+        </article> -->
 
         <article class="card">
-          <div class="card-icon">📡</div>
-          <div class="card-title">Network Discovery Tool</div>
+          <a
+            class="card-icon"
+            href="https://www.github.com/marco-devspace/tcp-portscanner"
+            aria-label="GitHub Repository"
+            target="_blank"
+            rel="noopener noreferrer"
+            >📡</a
+          >
+          <div class="card-title">TCP Port Scanner</div>
           <p class="card-text">
-            Ein Python-Skript zur Analyse von Netzwerken, offenen Ports und
-            verfügbaren Diensten. Entwickelt um grundlegende Konzepte der
+            Ein Python-Skript zur Analyse offener TCP-Ports und grundlegender
+            Netzwerkkommunikation. Der Scanner nutz Multithreading und zeigt
+            bekannte Dienste für offene Ports an. Entwickelt um Konzepte der
             Netzwerkanalyse praktisch anzuwenden.
           </p>
           <div class="card-keywords">
             <span>
               <span class="badge">Python</span>
-              <span class="badge">Automation</span>
+              <span class="badge">Networking</span>
             </span>
             <span>
-              <span class="badge">Networking</span>
               <span class="badge">Port Scanning</span>
             </span>
           </div>
         </article>
 
         <article class="card">
-          <div class="card-icon">🛡️</div>
+          <a
+            class="card-icon"
+            href="https://www.github.com/marco-devspace/dashboard-demo"
+            aria-label="GitHub Repository"
+            target="_blank"
+            rel="noopener noreferrer"
+            >🛡️</a
+          >
           <div class="card-title">Web Application Security Analyzer</div>
           <p class="card-text">
             Ein Analysewerkzeug zur Untersuchung potentieller
-            Sicherheitsprobleme in Webanwendungen. Das Projekt verbindet
-            Softwareentwicklung mit praktischen Grundlagen der Web Application
-            Security.
+            Sicherheitsprobleme in Webanwendungen mit Online-Dashboard. Das
+            Projekt verbindet Softwareentwicklung mit praktischen Grundlagen der
+            Web Application Security.
           </p>
           <div class="card-keywords">
             <span>
-              <span class="badge">Python</span>
-              <span class="badge">Security</span>
+              <span class="badge">Security Monitoring</span>
             </span>
             <span>
               <span class="badge">Vulnerability Analysis</span>
               <span class="badge">Reports</span>
+            </span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a
+            class="card-icon"
+            href="https://www.github.com/marco-devspace/web-security-academy-notes"
+            aria-label="GitHub Repository"
+            target="_blank"
+            rel="noopener noreferrer"
+            >🗒️</a
+          >
+          <div class="card-title">Web Security Academy Notes</div>
+          <p class="card-text">
+            Technische Dokumentation und strukturierte Notizen zu gängigen
+            Web-Schwachstellen aus der PortSwigger Web Security Academy.
+          </p>
+          <div class="card-keywords">
+            <span>
+              <span class="badge">Documentation</span>
+            </span>
+            <span>
+              <span class="badge">Web Security</span>
+              <span class="badge">BurpSuite</span>
             </span>
           </div>
         </article>
@@ -188,8 +238,8 @@
           <div class="card-title">Weiterbildung</div>
           <div class="card-text">
             <div>🏅 TryHackMe - Cyber Security 101</div>
-            <div>🏅 TryHackMe - Junior Penetration Tester</div>
-            <div>⏳ PortSwigger Web Security Academy</div>
+            <div>⏳ TryHackMe - Jr Penetration Tester</div>
+            <div>⏳ PortSwigger - Web Security Academy</div>
           </div>
         </article>
       </section>
@@ -201,10 +251,10 @@
           <div class="card-icon">💻</div>
           <div class="card-title">Webentwicklung</div>
           <p class="card-text">
-            Entwicklung moderner Webanwendungen mit Fokus auf Performance,
-            sauberem Code und User Experience. Linux und Git gehören zu meinem
-            täglichen Workflow und unterstützen eine strukturierte sowie
-            effiziente Arbeitsweise.
+            Entwicklung moderner Webanwendungen mit Fokus auf User Experience,
+            Qualität und Sicherheit. <br />
+            Linux und Git gehören zu meinem täglichen Workflow und unterstützen
+            eine strukturierte sowie effiziente Arbeitsweise.
           </p>
           <div class="card-keywords">
             <span>
@@ -223,17 +273,19 @@
           <div class="card-icon">🔐</div>
           <div class="card-title">Cybersecurity</div>
           <p class="card-text">
-            Fundierte Kenntnisse in den Bereichen Cybersecurity, Web Security
-            und Netzwerksicherheit. Praktische Anwendung durch eigene Projekte,
-            Security-Labs und kontinuierliche Weiterbildung.
+            Fundierte Kenntnisse in den Bereichen Cybersecurity, Web Security,
+            Netzwerksicherheit und Secure Software Development. Praktische
+            Anwendung durch eigene Projekte, Security-Labs und kontinuierliche
+            Weiterbildung.
           </p>
           <div class="card-keywords">
             <span>
-              <span class="badge">Web Security</span>
-              <span class="badge">OWASP</span>
+              <span class="badge">OWASP Top 10</span>
+              <span class="badge">Security Controls</span>
             </span>
             <span>
-              <span class="badge">Penetration Testing</span>
+              <span class="badge">Incident Response</span>
+              <span class="badge">Risk Management</span>
             </span>
           </div>
         </article>
@@ -242,7 +294,7 @@
       <!-- CONTACT -->
       <footer class="site-footer" id="contact">
         <a
-          href="https://www.linkedin.com/in/marcobeyl"
+          href="https://www.linkedin.com/in/marco-beyl"
           aria-label="LinkedIn Profil"
           target="_blank"
           rel="noopener noreferrer"
@@ -256,7 +308,7 @@
           <span>LinkedIn</span>
         </a>
         <a
-          href="https://www.github.com/marco-devspace"
+          href="https://www.github.com/marco-devspace?tab=repositories"
           aria-label="GitHub Profil"
           target="_blank"
           rel="noopener noreferrer"

@@ -70,7 +70,7 @@ body::before {
 }
 
 .page {
-  max-width: 1120px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1.5rem 1.25rem 3rem;
 }
@@ -94,36 +94,21 @@ header {
   border: 1px solid rgba(148, 163, 184, 0.25);
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.45);
   position: sticky;
-  top: 0.75rem;
+  top: 1.5rem;
   z-index: 20;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
+  margin-bottom: -5px;
 }
 
 .personal {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-}
-
-.personal-logo {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
-  background: radial-gradient(circle at 30% 20%, #a855f7, #4f46e5 55%, #0ea5e9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #e5e7eb;
-  font-weight: 700;
-  font-size: 0.95rem;
-  box-shadow:
-    0 0 0 2px rgba(15, 23, 42, 0.9),
-    0 12px 30px rgba(79, 70, 229, 0.7);
 }
 
 .personal-text {
@@ -238,6 +223,7 @@ section.cards {
   background: rgba(79, 70, 229, 0.2);
   color: #a5b4fc;
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .card-title {
