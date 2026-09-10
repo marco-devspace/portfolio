@@ -4,7 +4,7 @@ Eine persönliche Portfolio-Website zur Präsentation meines beruflichen Hinterg
 
 ## Überblick
 
-Dieses Projekt ist eine selbst entwickelte Portfolio-Website, die meine Erfahrungen als Softwareentwickler präsentiert und meinen Einstieg sowie meine Weiterentwicklung im Bereich Cybersecurity dokumentiert.
+Dieses Projekt ist eine selbst entwickelte Portfolio-Website, die meine Erfahrungen als Softwareentwickler präsentiert und  meine Weiterentwicklung im Bereich Cybersecurity dokumentiert.
 
 Die Website bietet einen Überblick über meine technischen Kenntnisse, Qualifikationen und persönlichen Projekte. Das Design ist bewusst schlicht gehalten und legt den Fokus auf eine übersichtliche und klare Darstellung.
 
@@ -23,11 +23,11 @@ Die Website bietet einen Überblick über meine technischen Kenntnisse, Qualifik
 
 ## Ziel
 
-Mit diesem Projekt möchte ich:
+Ziel des Projekts ist es:
 
-- eine professionelle Online-Präsenz aufbauen
-- meine Kenntnisse in Softwareentwicklung und Cybersecurity präsentieren
-- persönliche Projekte und meinen kontinuierlichen Lernfortschritt dokumentieren
+- eine professionelle Online-Präsenz aufzubauen
+- meine Kenntnisse in Softwareentwicklung und Cybersecurity zu präsentieren
+- persönliche Projekte und meinen kontinuierlichen Lernfortschritt zu dokumentieren
 
 ## Hinweis
 
