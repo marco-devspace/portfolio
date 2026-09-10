@@ -31,7 +31,6 @@
     </filter>
   </defs>
 
-  <!-- Hintergrund -->
   <rect
     width="64"
     height="64"
@@ -39,21 +38,6 @@
     fill="url(#background)"
   />
 
-  <!-- Dezenter Glanz -->
-  <path
-    d="M16 8
-       H48
-       C53 8 56 11 56 16
-       V21
-       C43 16 29 15 14 19
-       C11 20 9 21 8 22
-       V16
-       C8 11 11 8 16 8Z"
-    fill="#ffffff"
-    opacity="0.08"
-  />
-
-  <!-- Logo -->
   <text
     x="32"
     y="34"
