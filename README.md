@@ -1,10 +1,10 @@
-# Persönliche Portfolio-Website
+# Persönliche Portfolio Website
 
 Eine persönliche Portfolio-Website zur Präsentation meines beruflichen Hintergrunds, meiner Projekte, Kenntnisse und meiner Entwicklung in den Bereichen Softwareentwicklung und Cybersecurity.
 
 ## Überblick
 
-Dieses Projekt ist eine selbst entwickelte Portfolio-Website, die meine Erfahrungen als Softwareentwickler präsentiert und  meine Weiterentwicklung im Bereich Cybersecurity dokumentiert.
+Dieses Projekt ist eine selbst entwickelte Portfolio-Website, die meine Erfahrungen als Softwareentwickler präsentiert und meine Weiterentwicklung im Bereich Cybersecurity dokumentiert.
 
 Die Website bietet einen Überblick über meine technischen Kenntnisse, Qualifikationen und persönlichen Projekte. Das Design ist bewusst schlicht gehalten und legt den Fokus auf eine übersichtliche und klare Darstellung.
 
