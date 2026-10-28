@@ -40,7 +40,7 @@ const now = Date.now();
 const lastVisit = localStorage.getItem("lastVisited");
 if (!lastVisit || now - lastVisit > 60 * 60 * 1000) {
   fetch(
-    "https://api.counterapi.dev/v1/marco-devspace-portfolio/visits/up",
+    "https://countapi.mileshilliard.com/api/v1/hit/marco-devspace-portfolio",
   ).catch(() => {});
   localStorage.setItem("lastVisited", now);
 }
