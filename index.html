@@ -24,6 +24,7 @@
             </div>
           </div>
         </div>
+
         <nav>
           <a class="nav-links" href="#">Start</a>
           <a class="nav-links" href="#projects">Projekte</a>
@@ -59,12 +60,11 @@
       </header>
 
       <!-- HERO -->
-      <section>
+      <section class="hero">
         <div class="hero-text">
           <h1>
             Hi, ich bin <span class="gradient">Marco</span> - ich entwickle
-            Software, <br />
-            die aus Ideen echte Lösungen macht.
+            Software, die aus Ideen echte Lösungen macht.
           </h1>
           <p class="hero-subtitle">
             Ich kombiniere
@@ -76,6 +76,21 @@
             und
             <strong>Sicherheit.</strong>
           </p>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+            <em>marco@portfolio: ~</em>
+          </div>
+          <pre><span class="t-prompt">$</span> <span>whoami</span>
+          <span style="margin-left:-75px">Marco Beyl</span>
+
+          <span class="t-prompt" style="margin-left:-75px">$</span> ls skills/
+          <span style="margin-left:-75px">typescript  angular  sql  linux  git</span>
+          <span style="margin-left:-75px">rest-api  web-development  web-security</span>
+
+          <span class="t-prompt" style="margin-left:-75px">$</span> <span class="cursor"></span></pre>
         </div>
       </section>
 
@@ -109,115 +124,130 @@
 
       <!-- PROJECTS -->
       <h3 class="section-title">Projekte</h3>
-      <section class="cards" id="projects">
-        <!-- <article class="card">
+      <section class="cards projects-grid" id="projects">
+        <article class="card project-wide">
           <a
-            class="card-icon"
-            href="https://www.github.com/marco-devspace/portfolio"
+            href="https://marco-devspace.github.io/dashboard-demo/"
+            aria-label="Dashboard Demo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="project-screenshot"
+              src="assets/wasp-screenshot.png"
+              alt="Screenshot der Web Application Security Platform"
+            />
+          </a>
+          <a
+            href="https://github.com/marco-devspace/dashboard-demo"
             aria-label="GitHub Repository"
             target="_blank"
             rel="noopener noreferrer"
-            >🎨</a
+            style="
+              color: inherit;
+              text-decoration: none;
+              box-sizing: border-box;
+            "
           >
-          <div class="card-title">Portfolio-Website</div>
-          <p class="card-text">
-            Eine persönliche Website, um meine Projekte, Erfahrungen und
-            technischen Schwerpunkte in Softwareentwicklung und Cybersecurity
-            übersichtlich zu präsentieren.
-          </p>
-          <div class="card-keywords">
-            <span>
-              <span class="badge">HTML</span>
-              <span class="badge">CSS</span>
-              <span class="badge">JavaScript</span>
-            </span>
-            <span>
-              <span class="badge">Design</span>
-              <span class="badge">UI/UX</span>
-            </span>
-          </div>
-        </article> -->
-
-        <article class="card">
-          <a
-            class="card-icon"
-            href="https://www.github.com/marco-devspace/tcp-portscanner"
-            aria-label="GitHub Repository"
-            target="_blank"
-            rel="noopener noreferrer"
-            >📡</a
-          >
-          <div class="card-title">TCP Port Scanner</div>
-          <p class="card-text">
-            Ein Python-Skript zur Analyse offener TCP-Ports und grundlegender
-            Netzwerkkommunikation. Der Scanner nutzt Multithreading und zeigt
-            bekannte Dienste für offene Ports an. Entwickelt um Konzepte der
-            Netzwerkanalyse praktisch anzuwenden.
-          </p>
-          <div class="card-keywords">
-            <span>
-              <span class="badge">Python</span>
-              <span class="badge">Networking</span>
-            </span>
-            <span>
-              <span class="badge">Port Scanning</span>
-            </span>
-          </div>
+            <div class="project-info">
+              <span class="card-title">
+                Web Application Security Platform
+                <span class="link-arrow">&nearrow;</span>
+              </span>
+              <p class="card-text">
+                Entwicklung einer Web Application Security Platform zur
+                automatisierten Analyse von Webanwendungen auf potenzielle
+                Schwachstellen. Die Plattform verbindet einen Security Scanner
+                zur Schwachstellenanalyse mit einem Dashboard zur zentralen
+                Darstellung und Auswertung der Scan-Ergebnisse. <br />
+                Das Projekt verbindet Softwareentwicklung mit praktischen
+                Grundlagen der Web Application Security.
+              </p>
+              <div class="card-keywords">
+                <span>
+                  <span class="badge">Security Monitoring</span>
+                </span>
+                <span>
+                  <span class="badge">Vulnerability Analysis</span>
+                  <span class="badge">Reports</span>
+                </span>
+              </div>
+            </div>
+          </a>
         </article>
 
         <article class="card">
+          <div class="card-icon">📡</div>
           <a
-            class="card-icon"
-            href="https://www.github.com/marco-devspace/dashboard-demo"
+            href="https://github.com/marco-devspace/tcp-portscanner"
             aria-label="GitHub Repository"
             target="_blank"
             rel="noopener noreferrer"
-            >🛡️</a
+            style="
+              color: inherit;
+              text-decoration: none;
+              box-sizing: border-box;
+            "
           >
-          <div class="card-title">Web Application Security Platform</div>
-          <p class="card-text">
-            Entwicklung einer Web Application Security Platform zur
-            automatisierten Analyse von Webanwendungen auf potenzielle
-            Schwachstellen. Die Plattform verbindet einen Security Scanner zur
-            Schwachstellenanalyse mit einem Dashboard zur zentralen Darstellung
-            und Auswertung der Scan-Ergebnisse. <br />
-            Das Projekt verbindet Softwareentwicklung mit praktischen Grundlagen
-            der Web Application Security.
-          </p>
-          <div class="card-keywords">
-            <span>
-              <span class="badge">Security Monitoring</span>
-            </span>
-            <span>
-              <span class="badge">Vulnerability Analysis</span>
-              <span class="badge">Reports</span>
-            </span>
-          </div>
+            <div>
+              <div class="card-title">
+                TCP Port Scanner
+                <span class="link-arrow">&nearrow;</span>
+              </div>
+              <p class="card-text">
+                Ein Python-Skript zur Analyse offener TCP-Ports und
+                grundlegender Netzwerkkommunikation. Der Scanner nutzt
+                Multithreading und zeigt bekannte Dienste für offene Ports an.
+                Entwickelt um Konzepte der Netzwerkanalyse praktisch anzuwenden.
+              </p>
+              <div class="card-keywords">
+                <span>
+                  <span class="badge">Python</span>
+                  <span class="badge">Networking</span>
+                </span>
+                <span>
+                  <span class="badge">Port Scanning</span>
+                </span>
+              </div>
+            </div>
+          </a>
         </article>
 
         <article class="card">
+          <div class="card-icon">🗒️</div>
           <a
-            class="card-icon"
-            href="https://www.github.com/marco-devspace/web-security-academy-notes"
+            href="https://github.com/marco-devspace/web-security-academy-notes"
             aria-label="GitHub Repository"
             target="_blank"
             rel="noopener noreferrer"
-            >🗒️</a
+            style="
+              color: inherit;
+              text-decoration: none;
+              box-sizing: border-box;
+            "
           >
-          <div class="card-title">Web Security Academy Notes</div>
-          <p class="card-text">
-            Technische Dokumentation und strukturierte Notizen zu gängigen
-            Web-Schwachstellen aus der PortSwigger Web Security Academy.
-          </p>
-          <div class="card-keywords">
-            <span>
-              <span class="badge">Documentation</span>
-            </span>
-            <span>
-              <span class="badge">Web Security</span>
-              <span class="badge">BurpSuite</span>
-            </span>
-          </div>
+            <div>
+              <div class="card-title">
+                Web Security Academy Notes
+                <span class="link-arrow">&nearrow;</span>
+              </div>
+              <p class="card-text">
+                Technische Dokumentation und strukturierte Notizen zu gängigen
+                Web-Schwachstellen aus der PortSwigger Web Security Academy.
+                <br />
+                <br />
+              </p>
+              <div class="card-keywords">
+                <span>
+                  <span class="badge">Documentation</span>
+                </span>
+                <span>
+                  <span class="badge">Web Security</span>
+                  <span class="badge">BurpSuite</span>
+                </span>
+              </div>
+            </div>
+          </a>
         </article>
       </section>
 
@@ -307,6 +337,7 @@
           </svg>
           <span>LinkedIn</span>
         </a>
+
         <a
           href="https://www.github.com/marco-devspace?tab=repositories"
           aria-label="GitHub Profil"
@@ -321,6 +352,7 @@
           </svg>
           <span>GitHub</span>
         </a>
+
         <!-- update years automatically -->
         <p class="footer-text">
           © <span id="year">4</span> - Portfolio von Marco Beyl
